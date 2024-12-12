@@ -1,0 +1,96 @@
+/* PALETA DE COLORES ----------------------------------------------------------*/
+:root {
+    --color-titulo-web: #487aa1;
+    --color-azul-claro: #b2d9f7;
+    --color-letra-titulo-web: #3d3c3b;
+    --color-cuerpo: #dde3ca;
+    --color-marron: #7c8071;
+}
+
+/* GENERAL --------------------------------------------------------------------*/
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+h2 {
+    margin: auto;
+    color: var(--color-azul-claro);
+    text-align: center;
+    text-decoration:underline;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Roboto Mono", monospace;
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Flexbox para estructura */
+    /* min-height: 100vh; Asegura que el contenido ocupe toda la altura */
+}
+
+.header8 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background: radial-gradient(var(--color-azul-claro), var(--color-titulo-web));
+    color: var(--color-letra-titulo-web);
+}
+
+.main8 {
+    width: 100%;
+    margin: 2vw auto;
+    height: auto;
+    background-color: black;
+}
+
+.content {
+    padding: 4vw 5vh;
+    color: white;
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 3vh; /* Espacio entre artículos */
+}
+
+.footer8 {
+    width: 100%;
+    height: 7vh;
+    background-color: var(--color-titulo-web);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 7vh;
+    display: flex;     
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    width: 14.2vw;
+    border: solid 0.5vh var(--color-titulo-web);
+    background: linear-gradient(var(--color-titulo-web), var(--color-azul-claro));
+    cursor: pointer;
+    margin: 2vh auto; /* Centrar horizontalmente y añadir margen superior e inferior */
+}
+
+button:hover {
+    background: black;
+    border: solid 0.5vh white;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: var(--color-letra-titulo-web);
+}
