@@ -608,9 +608,8 @@ footer {
 
 
     nav button {
-        width: 80%; /* Make buttons more responsive */
+        width: 100%; /* Make buttons more responsive */
         height: 10vh;
-        margin-bottom: 1vh;
     }
 
 
