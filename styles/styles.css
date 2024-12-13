@@ -608,7 +608,7 @@ footer {
 
 
     nav button {
-        width: 100%; /* Make buttons more responsive */
+        width: 80%; /* Make buttons more responsive */
         height: 10vh;
     }
 
@@ -639,11 +639,6 @@ footer {
     /* Specific section styles */
     section {
         height: auto; /* Adjust section height */
-    }
-   
-    /* Adjust buttons and layout for sections */
-    nav button {
-        width: 100%; /* Full width for buttons in the navbar */
     }
    
     /* Additional styling adjustments for responsive behavior */
