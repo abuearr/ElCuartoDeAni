@@ -616,7 +616,10 @@ footer {
     nav button a {
         font-size: 3vw; /* Adjust link font size */
     }
-
+ /* Adjust buttons and layout for sections */
+    nav button {
+        width: 100%; /* Full width for buttons in the navbar */
+    }
 
     .sectionnav {
         padding: 0;
